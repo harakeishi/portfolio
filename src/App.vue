@@ -1,23 +1,22 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <appHeader></appHeader>
+    <div class="blankSpace"></div>
     <router-view/>
   </div>
 </template>
 
 <script>
+import appHeader from '@/components/header'
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    appHeader: appHeader
+  }
 }
 </script>
-
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+.blankSpace{
+  margin-top: 80px;
 }
 </style>
