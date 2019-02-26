@@ -1,7 +1,7 @@
 <template lang="html">
   <div class="appHeader">
     <div class="left">
-      <h1><router-link to="/">HaraKeishi</router-link></h1>
+      <h1><router-link to="/">HARA KEISHI</router-link></h1>
     </div>
     <div class="right">
       <div class="Headline">
@@ -33,7 +33,12 @@ export default {
 
 <style>
 a{
+  color: rgb(143, 143, 143);
+  transition: 1.0s ;
   text-decoration: none;
+}
+a:hover{
+  color: rgb(47, 179, 228);
 }
 .appHeader{
   height: 80px;
@@ -41,7 +46,9 @@ a{
   top: 0;
   left: 0;
   position: fixed;
-  background-color: rgb(100, 191, 112);
+  background-color: rgb(255, 255, 255);
+  font-family: 'Time New Roman';
+  box-shadow: 0px 5px 10px rgb(195, 195, 195);
 }
 .left{
   float: left;
@@ -52,11 +59,10 @@ a{
 .Headline{
   display: inline-block;
   height: 80px;
+  padding: 0 5px;
   font-size: 20px;
   font-weight: bold;
   border-right: solid 2px rgb(255, 255, 255);
 }
-.Headline:hover{
-  background-color: rgb(64, 227, 90);
-}
+
 </style>
