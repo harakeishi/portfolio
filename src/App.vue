@@ -29,5 +29,9 @@ export default {
 }
 #app{
   text-align: center;
+  background-image: url("./assets/load.gif");
+  background-repeat:no-repeat;
+  background-position: 50% 50%;
+  background-attachment:fixed;
 }
 </style>
