@@ -1,27 +1,34 @@
 <template lang="html">
   <div class="Introduction">
-    <h1>Introduction</h1>
+    <h1 class="title">Introduction</h1>
     <div class="main">
-      <table>
-        <tr>
-          <td　rowspan="2"><img src="../assets/icon.png"></td><th>氏名</th>
-        </tr>
-        <tr>
-          <td>原　慧士（はら　けいし）</td>
-        </tr>
-        <tr>
-          <td　rowspan="4">icon</td><th>所属</th>
-        </tr>
-        <tr>
-          <td>神奈川工科大学　情報学部</td>
-        </tr>
-        <tr>
-          <td>情報ネットワーク・コミュニケーション学科</td>
-        </tr>
-        <tr>
-          <td>井家研究室</td>
-        </tr>
-      </table>
+      <div class="status">
+        <table>
+          <tr>
+            <td rowspan="2" align="center"><img src="../assets/icon.png" style="margin:auto"></td><th>氏名</th>
+          </tr>
+          <tr>
+            <td>原 慧士（はら けいし）</td>
+          </tr>
+          <tr>
+            <td rowspan="4">
+              <a href="https://twitter.com/cfgtLnLLaWNISrP?lang=ja" target=”_blank”><i class="fab fa-twitter fa-3x " style="color:rgb(73, 241, 221)"></i></a>
+              <a href="https://github.com/harakeishi" target=”_blank”><i class="fab fa-github fa-3x" style="color:rgb(0, 0, 0)"></i></a>
+              <a href="https://harakeishi.github.io/cms.js-starter" target=”_blank”><i class="fab fa-blogger fa-3x" style="color:rgb(97, 127, 255)"></i></a>
+              <a href="https://qiita.com/harachan" target=”_blank”><img src="../assets/qiita-favicon.png" style="width: 40px;"></a>
+            </td><th>所属</th>
+          </tr>
+          <tr>
+            <td>神奈川工科大学 情報学部</td>
+          </tr>
+          <tr>
+            <td>情報ネットワーク・コミュニケーション学科</td>
+          </tr>
+          <tr>
+            <td>井家研究室</td>
+          </tr>
+        </table>
+      </div>
       <div class="summary">
         <h1>概要</h1>
         <p>現在、神奈川工科大学にてインターネットの整備やプログラミングを学んでいる。</p>
@@ -43,8 +50,13 @@ export default {
 </script>
 
 <style scoped>
+.title{
+  background-size: cover;
+  background-color: rgba(160, 254, 205, 0.53);
+}
 .Introduction{
   width: 100%;
+  height: 90vh;
   position: fixed;
   background-image: url("../assets/1.jpg");
 }
@@ -55,11 +67,21 @@ export default {
 }
 .main table{
   margin: auto;
+  word-break : break-all;
+}
+.main table td{
+  word-break : break-all;
+}
+.status{
+  width: 80%;
+  margin: auto;
+  padding: 5px;
+  background-color: rgba(212, 212, 212, 0.8);
 }
 .summary{
   width: 80%;
   margin: auto;
   padding: 5px;
-  background-color: rgba(212, 212, 212, 0.57);
+  background-color: rgba(212, 212, 212, 0.8);
 }
 </style>
