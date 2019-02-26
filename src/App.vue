@@ -5,8 +5,8 @@
       <div class="blankSpace"></div>
     </div>
     <transition name="router-transition"
-    enter-active-class="animated zoomIn"
-    leave-active-class="animated bounceOutRight">
+    enter-active-class="animated fadeIn"
+    leave-active-class="animated fadeOut">
     <router-view/>
     </transition>
   </div>

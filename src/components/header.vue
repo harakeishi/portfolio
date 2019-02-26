@@ -28,10 +28,11 @@
 
 <script>
 export default {
+  name:'header'
 }
 </script>
 
-<style>
+<style scoped="this">
 a{
   color: rgb(143, 143, 143);
   transition: 1.0s ;
