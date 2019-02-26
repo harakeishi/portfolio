@@ -1,13 +1,65 @@
 <template lang="html">
   <div class="Introduction">
     <h1>Introduction</h1>
+    <div class="main">
+      <table>
+        <tr>
+          <td　rowspan="2"><img src="../assets/icon.png"></td><th>氏名</th>
+        </tr>
+        <tr>
+          <td>原　慧士（はら　けいし）</td>
+        </tr>
+        <tr>
+          <td　rowspan="4">icon</td><th>所属</th>
+        </tr>
+        <tr>
+          <td>神奈川工科大学　情報学部</td>
+        </tr>
+        <tr>
+          <td>情報ネットワーク・コミュニケーション学科</td>
+        </tr>
+        <tr>
+          <td>井家研究室</td>
+        </tr>
+      </table>
+      <div class="summary">
+        <h1>概要</h1>
+        <p>現在、神奈川工科大学にてインターネットの整備やプログラミングを学んでいる。</p>
+        <p>研究室では、最近流行りのPythonを使った機械学習に興味を持ちFXと関連して研究をしていく予定。</p>
+        <p>株式会社 究進塾にてエンジニアとしてアルバイトしている。</p>
+        <p>参加プロジェクトは授業予約を電子化するもので、フロント・サーバ両方の開発・運用を行っている。</p>
+        <p>2018年夏には担当していた機能追加をリリースし、バグなどの対応で忙殺される。</p>
+        <p>その後、お知らせ機能の追加やメール登録機能の追加などを1人で担当し、サーバサイドのプログラミングに興味を持つようになる。</p>
+        <p>現在はスマホに対応してレスポンシブに動作するように修正作業を主に行っている。</p>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
+  name: 'Introduction'
 }
 </script>
 
-<style lang="css">
+<style scoped>
+.Introduction{
+  width: 100%;
+  position: fixed;
+  background-image: url("../assets/1.jpg");
+}
+.main{
+  width: 80%;
+  margin: auto;
+  text-align: left;
+}
+.main table{
+  margin: auto;
+}
+.summary{
+  width: 80%;
+  margin: auto;
+  padding: 5px;
+  background-color: rgba(212, 212, 212, 0.57);
+}
 </style>
