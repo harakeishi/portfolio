@@ -1,5 +1,6 @@
 <template lang="html">
   <div id="top">
+    <h1 class="title">Top</h1>
     <div class="main">
       <h1>ご観覧ありがとうございます</h1>
       <p>原慧士のポートフォリオページです</p>
@@ -37,11 +38,17 @@ export default {
   height: 91vh;
   background-image: url("../assets/1.jpg");
 }
+.title{
+  background-size: cover;
+  background-color: rgba(160, 254, 205, 0.53);
+}
 a{
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
 .main{
+  width: 80%;
+  margin: auto;
   background-color: rgba(228, 228, 228, 0.52);
 }
 .content{

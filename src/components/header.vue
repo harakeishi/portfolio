@@ -49,7 +49,6 @@ a:hover{
   position: fixed;
   background-color: rgb(255, 255, 255);
   font-family: 'Time New Roman';
-  box-shadow: 0px 5px 10px rgb(195, 195, 195);
 }
 .left{
   float: left;
