@@ -1,6 +1,6 @@
 <template lang="html">
   <div class="Qualification">
-    <h1 class="title">Qualification</h1>
+    <h1 class="title">保有資格</h1>
     <div class="main">
       <ul>
         <li><i class="far fa-check-square fa-2x"></i>ITパスポート (2016年7月取得)<br><a>第 IP-2016-07-01488号</a></li>
@@ -24,15 +24,15 @@ export default {
 }
 .Qualification{
   width: 100%;
-  height: 90vh;
-  background-size:100% auto;
+  height: 100vh;
+  background-size:100% 100vh;
   background-image: url("../assets/4.jpg");
 }
 .main{
   width: 80%;
   margin: auto;
   padding: 50px 0px;
-  background-color: rgba(228, 228, 228, 0.52);
+  background-color: rgba(255, 255, 255, 0.52);
 }
 ul {
   text-align: left;

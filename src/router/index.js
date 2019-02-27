@@ -7,6 +7,8 @@ import Qualification from '@/components/Qualification'
 import Skill from '@/components/skill'
 import Productions from '@/components/Productions'
 import Contact from '@/components/Contact'
+import Hobby from '@/components/hobby'
+import SelfAnalysis from '@/components/SelfAnalysis'
 
 Vue.use(Router)
 
@@ -46,6 +48,16 @@ export default new Router({
       path: '/Contact',
       name: 'Contact',
       component: Contact
+    },
+    {
+      path: '/Hobby',
+      name: 'Hobby',
+      component: Hobby
+    },
+    {
+      path: '/SelfAnalysis',
+      name: 'SelfAnalysis',
+      component: SelfAnalysis
     }
   ]
 })

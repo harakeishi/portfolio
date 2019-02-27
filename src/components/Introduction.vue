@@ -1,6 +1,6 @@
 <template lang="html">
   <div class="Introduction">
-    <h1 class="title">Introduction</h1>
+    <h1 class="title">自己紹介</h1>
     <div class="main">
       <div class="status">
         <table>
@@ -12,7 +12,7 @@
           </tr>
           <tr>
             <td rowspan="4">
-              <a href="https://twitter.com/cfgtLnLLaWNISrP?lang=ja" target=”_blank”><i class="fab fa-twitter fa-3x " style="color:rgb(73, 241, 221)"></i></a>
+              <a href="https://twitter.com/cfgtLnLLaWNISrP?lang=ja" target=”_blank”><i class="fab fa-twitter fa-3x faa-wrench animated-hover " style="color:rgb(73, 241, 221)"></i></a>
               <a href="https://github.com/harakeishi" target=”_blank”><i class="fab fa-github fa-3x" style="color:rgb(0, 0, 0)"></i></a>
               <a href="https://harakeishi.github.io/cms.js-starter" target=”_blank”><i class="fab fa-blogger fa-3x" style="color:rgb(97, 127, 255)"></i></a>
               <a href="https://qiita.com/harachan" target=”_blank”><img src="../assets/qiita-favicon.png" style="width: 40px;"></a>
@@ -39,6 +39,14 @@
         <p>その後、お知らせ機能の追加やメール登録機能の追加などを1人で担当し、サーバサイドのプログラミングに興味を持つようになる。</p>
         <p>現在はスマホに対応してレスポンシブに動作するように修正作業を主に行っている。</p>
       </div>
+      <div class="link">
+        <router-link to="/Hobby">
+          <p class="content faa-tada animated">趣味</p>
+        </router-link>
+        <router-link to="/SelfAnalysis">
+          <p class="content faa-tada animated">性格分析</p>
+        </router-link>
+      </div>
     </div>
   </div>
 </template>
@@ -56,12 +64,15 @@ export default {
 }
 .Introduction{
   width: 100%;
-  height: 90vh;
+  height: 100vh;
+  background-size:100% 100vh;
   background-image: url("../assets/1.jpg");
 }
 .main{
   width: 80%;
   margin: auto;
+  padding: 20px 0px;
+  background-color: rgba(255, 255, 255, 0.8);
   text-align: left;
 }
 .main table{
@@ -75,12 +86,32 @@ export default {
   width: 80%;
   margin: auto;
   padding: 5px;
-  background-color: rgba(212, 212, 212, 0.8);
 }
 .summary{
   width: 80%;
   margin: auto;
+  border: solid 2px rgb(255, 99, 0);
   padding: 5px;
-  background-color: rgba(212, 212, 212, 0.8);
+}
+.link a{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.link{
+  margin-top: 10px;
+  text-align: center;
+}
+.content{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 50%;
+  margin: auto;
+  text-align: center;
+  line-height: 100px;
+  vertical-align: middle;
+  background-color: rgba(238, 230, 21, 0.66);
 }
 </style>

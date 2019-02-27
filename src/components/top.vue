@@ -1,26 +1,25 @@
 <template lang="html">
   <div id="top">
-    <h1 class="title">Top</h1>
+    <h1 class="title">ご観覧ありがとうございます</h1>
     <div class="main">
-      <h1>ご観覧ありがとうございます</h1>
       <p>原慧士のポートフォリオページです</p>
       <router-link to="/Introduction">
-        <p class="content one">自己紹介</p>
+        <p class="content one faa-bounce animated-hover">自己紹介</p>
       </router-link>
       <router-link to="/Biography">
-        <p class="content two">経歴</p>
+        <p class="content two faa-bounce animated-hover">経歴</p>
       </router-link>
       <router-link to="/Qualification">
-        <p class="content three">保有資格</p>
+        <p class="content three faa-bounce animated-hover">保有資格</p>
       </router-link><br>
       <router-link to="/Skill">
-        <p class="content four">スキル</p>
+        <p class="content four faa-bounce animated-hover">スキル</p>
       </router-link>
       <router-link to="/Productions">
-        <p class="content five">制作物</p>
+        <p class="content five faa-bounce animated-hover">制作物</p>
       </router-link>
       <router-link to="/Contact">
-        <p class="content six">Contact</p>
+        <p class="content six faa-bounce animated-hover">Contact</p>
       </router-link>
     </div>
   </div>
@@ -35,7 +34,8 @@ export default {
 <style scoped>
 #top{
   width: 100%;
-  height: 91vh;
+  height: 100vh;
+  background-size:100% 100vh;
   background-image: url("../assets/1.jpg");
 }
 .title{
@@ -43,13 +43,15 @@ export default {
   background-color: rgba(160, 254, 205, 0.53);
 }
 a{
+  -webkit-text-stroke: 0.5px #000;
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
 .main{
   width: 80%;
   margin: auto;
-  background-color: rgba(228, 228, 228, 0.52);
+  padding: 50px 0px;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 .content{
   display: inline-block;
