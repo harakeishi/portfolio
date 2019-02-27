@@ -5,19 +5,19 @@
     </div>
     <div class="right">
       <div class="Headline">
-        <p><router-link to="/Introduction">Introduction</router-link></p>
+        <p><router-link to="/Introduction">自己紹介</router-link></p>
       </div>
       <div class="Headline">
-        <p><router-link to="/Biography">Biography</router-link></p>
+        <p><router-link to="/Biography">経歴</router-link></p>
       </div>
       <div class="Headline">
-        <p><router-link to="/Qualification">Qualification</router-link></p>
+        <p><router-link to="/Qualification">保有資格</router-link></p>
       </div>
       <div class="Headline">
-        <p><router-link to="/Skill">skill</router-link></p>
+        <p><router-link to="/Skill">スキル</router-link></p>
       </div>
       <div class="Headline">
-        <p><router-link to="/Productions">Productions</router-link></p>
+        <p><router-link to="/Productions">制作物</router-link></p>
       </div>
       <div class="Headline">
         <p><router-link to="/Contact">Contact</router-link></p>

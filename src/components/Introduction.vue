@@ -57,7 +57,6 @@ export default {
 .Introduction{
   width: 100%;
   height: 90vh;
-
   background-image: url("../assets/1.jpg");
 }
 .main{

@@ -5,19 +5,19 @@
       <h1>ご観覧ありがとうございます</h1>
       <p>原慧士のポートフォリオページです</p>
       <router-link to="/Introduction">
-        <p class="content one">Introduction</p>
+        <p class="content one">自己紹介</p>
       </router-link>
       <router-link to="/Biography">
-        <p class="content two">Biography</p>
+        <p class="content two">経歴</p>
       </router-link>
       <router-link to="/Qualification">
-        <p class="content three">Qualification</p>
+        <p class="content three">保有資格</p>
       </router-link><br>
       <router-link to="/Skill">
-        <p class="content four">skill</p>
+        <p class="content four">スキル</p>
       </router-link>
       <router-link to="/Productions">
-        <p class="content five">Productions</p>
+        <p class="content five">制作物</p>
       </router-link>
       <router-link to="/Contact">
         <p class="content six">Contact</p>

@@ -10,7 +10,7 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style scoped>
 .title{
   background-size: cover;
   background-color: rgba(160, 254, 205, 0.53);
@@ -18,6 +18,7 @@ export default {
 .Biography{
   width: 100%;
   height: 90vh;
-  background-image: url("../assets/1.jpg");
+  background-size:100% auto;
+  background-image: url("../assets/6.jpg");
 }
 </style>
