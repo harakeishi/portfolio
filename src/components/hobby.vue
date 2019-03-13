@@ -5,7 +5,7 @@
       <ul>
         <li><i class="fas fa-music fa-2x"></i>ピアノ</li>
         <li><i class="fas fa-book fa-2x"></i>読書</li>
-        <li><i class="fas fa-laptop-code fa-2x"></i>プログラミング</li>
+        <li><i class="fas fa-laptop fa-2x"></i>プログラミング</li>
         <li><i class="fas fa-pizza-slice fa-2x"></i>料理</li>
         <li><i class="fas fa-image fa-2x"></i>絵</li>
       </ul>
